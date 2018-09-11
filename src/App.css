@@ -4,6 +4,7 @@
 
 .App {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .App-header {
@@ -31,6 +32,7 @@
 
 h1{
   font-size: 2rem;
+  margin-top: 1rem;
 }
 
 h2{
@@ -54,4 +56,12 @@ h2{
 .mediumType{
   font-size: 1rem;
   margin-bottom: .5rem;
+}
+
+.ideaHolder{
+  margin: 1rem;
+}
+
+.Ideas{
+  margin: 1rem;
 }
