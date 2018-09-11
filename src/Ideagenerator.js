@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const ARTTYPES = "http://localhost:4000/api/v1/arttypes"
-const ARTADJECTIVES = "http://localhost:4000/api/v1/words"
+const ARTTYPES = "https://artinspire-backend.herokuapp.com/api/v1/arttypes"
+const ARTADJECTIVES = "https://artinspire-backend.herokuapp.com/api/v1/words"
 
 
 class IdeaGenerator extends Component {
