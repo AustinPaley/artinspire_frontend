@@ -56,7 +56,7 @@ class IdeaGenerator extends Component {
     return (
       <div className="Ideas">
       <button className="button" id="ideaGenerate" onClick={this.handleClick}>{this.state.clicked}</button>
-      <br/><br/>
+      <br/>
       {this.state.chosenMedium === ""
       ?
       null
