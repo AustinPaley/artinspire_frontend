@@ -4,7 +4,6 @@ import './App.css';
 const ARTTYPES = "https://artinspire-backend.herokuapp.com/api/v1/arttypes"
 const ARTADJECTIVES = "https://artinspire-backend.herokuapp.com/api/v1/words"
 
-
 class IdeaGenerator extends Component {
   constructor(props){
     super(props)
@@ -62,9 +61,10 @@ class IdeaGenerator extends Component {
       ?
       null
       :
-        <div>
-        <h2>Your Project Should Have: </h2>
+        <div className="ideaHolder">
+        <h2>Your Project Type: </h2>
         <div className="mediumType"><span className="subtitles">Medium:</span> {this.state.chosenMedium}</div>
+        <h2 className="__pick-2">Use 2 of the Following Themes:</h2>
         <div className="wordDescriptor"><span className="subtitles">Adjective 1:</span> {this.state.chosenAdjectives[0]}</div>
         <div className="wordDescriptor"><span className="subtitles">Adjective 2:</span> {this.state.chosenAdjectives[1]}</div>
         <div className="wordDescriptor"><span className="subtitles">Adjective 3:</span> {this.state.chosenAdjectives[2]}</div>
